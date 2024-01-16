@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts';
+@import './colors';
+
+.noscroll {
+	overflow-y: hidden;
+}
+.rewards {
+	background-color: $primary--100;
+}
+
+.is-sticky {
+	position: fixed;
+	top: 0;
+}
+
+.navbarContent {
+	&__links {
+		position: relative;
+		transition: all 0.2s ease-in;
+		cursor: pointer;
+
+		&:hover {
+			color: $primary--100;
+			opacity: 1;
+		}
+
+		&::before {
+			transition: 300ms;
+			height: 5px;
+			content: '';
+			position: absolute;
+			background: $primary--200;
+		}
+	}
+
+	&__grow {
+		&::before {
+			height: 0%;
+			width: 100%;
+			bottom: -120%;
+		}
+
+		&:hover {
+			&::before {
+				height: 5px;
+			}
+		}
+	}
+}
+
+.heroContent {
+	background-color: $primary--300;
+
+	&__btn {
+		background-color: $primary--200;
+	}
+}
+
+.favouriteContent {
+	&__title {
+		background-color: $primary--400;
+
+		&--links {
+			position: relative;
+			transition: all 0.2s ease-in;
+			cursor: pointer;
+
+			&:hover {
+				color: $primary--100;
+				opacity: 1;
+			}
+
+			&::before {
+				transition: 300ms;
+				height: 5px;
+				content: '';
+				position: absolute;
+				background: $primary--600;
+			}
+		}
+
+		&--grow {
+			&::before {
+				height: 0%;
+				width: 100%;
+				bottom: -120%;
+			}
+
+			&:hover {
+				&::before {
+					height: 5px;
+				}
+			}
+		}
+	}
+
+	&__carousel {
+		background-color: $primary--300;
+	}
+}
+
+.earnStarsContent {
+	background-color: $primary--500;
+}
+
+.keepRewardsContent {
+	background-color: $primary--300;
+}
+
+.ctaContent {
+	background-color: $primary--400;
+}
