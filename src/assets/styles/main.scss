@@ -108,7 +108,16 @@
 }
 
 .keepRewardsContent {
-	background-color: $primary--300;
+	background-image: url('../images/wrapper.webp');
+	background-size: cover;
+
+	@media (max-width: 768px) {
+		background-image: none;
+	}
+
+	&__bg {
+		background-color: $primary--300;
+	}
 }
 
 .ctaContent {

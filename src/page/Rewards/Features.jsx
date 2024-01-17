@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
-import HeadingTitle from '../components/HeadingTitle';
-import Gallery from '../components/Gallery';
+import HeadingTitle from '../../components/HeadingTitle';
+import Gallery from '../../components/Gallery';
 
 function Features() {
 	const { featuresContent } = useSelector((state) => state.starbsTemplate);

@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { AnimatePresence, motion } from 'framer-motion';
 
-import { handleCurrentState } from '../action/reducer/starbuckSlice';
+import { handleCurrentState } from '../../action/reducer/starbuckSlice';
 
 function Favourites() {
 	const { favouritesContent, currentState } = useSelector(

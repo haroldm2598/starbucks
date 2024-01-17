@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
+import { Link, NavLink } from 'react-router-dom';
 import { FaLocationDot } from 'react-icons/fa6';
 import { IoMenuOutline, IoClose } from 'react-icons/io5';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -18,7 +19,13 @@ function Navbar() {
 	return (
 		<div className='max-w-full p-4 lg:px-8 lg:py-4 flex justify-between items-center'>
 			<div className='flex items-center gap-10'>
-				<img src={Logo} alt='starbucks logo' className='h-12 w-12' />
+				<Link to='/'>
+					<img
+						src={Logo}
+						alt='starbucks logo'
+						className='h-12 w-12 cursor-pointer'
+					/>
+				</Link>
 
 				<ul className='hidden lg:flex gap-8'>
 					{navLinks.map((item, index) => (
@@ -26,7 +33,7 @@ function Navbar() {
 							key={index}
 							className='font-Sodo__bold text-sm uppercase cursor-pointer navbarContent__links  navbarContent__grow '
 						>
-							{item}
+							<NavLink to={item.path}>{item.name}</NavLink>
 						</li>
 					))}
 				</ul>

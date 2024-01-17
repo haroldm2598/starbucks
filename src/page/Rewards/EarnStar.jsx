@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { useSelector } from 'react-redux';
-import HeadingTitle from '../components/HeadingTitle';
-import GridGallery from '../components/GridGallery';
+import HeadingTitle from '../../components/HeadingTitle';
+import GridGallery from '../../components/GridGallery';
 
 function EarnStar() {
 	const { earnContent } = useSelector((state) => state.starbsTemplate);

@@ -8,6 +8,13 @@ import {
 	FaTwitter
 } from 'react-icons/fa6';
 
+import home1 from '../../assets/images/newyear.webp';
+import home2 from '../../assets/images/pistachi.jpg';
+import home3 from '../../assets/images/community.webp';
+import home4 from '../../assets/images/hazelnut.jpg';
+import home5 from '../../assets/images/satisfying.jpg';
+import home6 from '../../assets/images/venmo.jpg';
+
 import circle1 from '../../assets/images/circle1.webp';
 import circle2 from '../../assets/images/circle2.webp';
 import circle3 from '../../assets/images/circle3.webp';
@@ -31,7 +38,11 @@ const initialState = {
 	isClick: false,
 	currentState: 25,
 	isQuestionClick: null,
-	navLinks: ['menu', 'rewards', 'girt cards'],
+	navLinks: [
+		{ name: 'menu', path: '/menu' },
+		{ name: 'rewards', path: '/rewards' },
+		{ name: 'gift cards', path: '/giftcards' }
+	],
 	footerLinks: [
 		{
 			intro: [
@@ -102,6 +113,56 @@ const initialState = {
 				'Accessibility',
 				'Cookie Preferences'
 			]
+		}
+	],
+	homeContent: [
+		{
+			customStyle: { orderImg: 'md:order-1', orderInfo: 'md:order-2' },
+			imageSrc: home1,
+			title: 'New Year, New Yays',
+			description:
+				'Jump-start your year with a week full of offers in the Starbucks app.*',
+			btnName: 'Open the app'
+		},
+		{
+			customStyle: { orderImg: 'md:order-2', orderInfo: 'md:order-1' },
+			imageSrc: home2,
+			title: 'Pistachi-Yum',
+			description:
+				'Creamy, cozy vibes make the Pistachio Latte a must-have this season.',
+			btnName: 'Order now'
+		},
+		{
+			customStyle: { orderImg: 'md:order-1', orderInfo: 'md:order-2' },
+			imageSrc: home3,
+			title: '"This is our community. We’re in it together."',
+			description:
+				'Our partners uplift each other and their communities every day.',
+			btnName: 'Learn more'
+		},
+		{
+			customStyle: { orderImg: 'md:order-2', orderInfo: 'md:order-1' },
+			imageSrc: home4,
+			title: 'Hey there, hazelnut',
+			description:
+				'Say hello to our Hazelnut Oatmilk Shaken Espresso, a rich and layered pick-me-up.',
+			btnName: 'Order now'
+		},
+		{
+			customStyle: { orderImg: 'md:order-1', orderInfo: 'md:order-2' },
+			imageSrc: home5,
+			title: 'Savory and satisfying',
+			description:
+				'Grab a subtly sweet Chicken, Maple Butter & Egg Sandwich on the way.',
+			btnName: 'Order now'
+		},
+		{
+			customStyle: { orderImg: 'md:order-2', orderInfo: 'md:order-1' },
+			imageSrc: home6,
+			title: 'Send Starbucks Cards in Venmo',
+			description:
+				'Send a little treat to someone you care about and brighten their day. You can now send Starbucks eGifts directly through Venmo.**',
+			btnName: 'View in Venmo'
 		}
 	],
 	featuresContent: [
