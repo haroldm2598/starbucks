@@ -89,7 +89,7 @@ function Navbar() {
 											animate={{ opacity: 1 }}
 											transition={{ delay: 0.4, type: 'tween', stiffness: 90 }}
 										>
-											{item}
+											<NavLink to={item.path}>{item.name}</NavLink>
 										</motion.li>
 									))}
 

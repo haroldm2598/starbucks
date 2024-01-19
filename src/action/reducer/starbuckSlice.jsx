@@ -117,7 +117,12 @@ const initialState = {
 	],
 	homeContent: [
 		{
-			customStyle: { orderImg: 'md:order-1', orderInfo: 'md:order-2' },
+			customStyle: {
+				orderImg: 'md:order-1',
+				orderInfo: 'md:order-2 homeContent__firstContent',
+				title: 'font-Sodo__semibold text-[1.75rem] lg:text-5xl',
+				description: 'font-Sodo__regular text-[1.375rem] lg:text-2xl'
+			},
 			imageSrc: home1,
 			title: 'New Year, New Yays',
 			description:
@@ -125,7 +130,12 @@ const initialState = {
 			btnName: 'Open the app'
 		},
 		{
-			customStyle: { orderImg: 'md:order-2', orderInfo: 'md:order-1' },
+			customStyle: {
+				orderImg: 'md:order-2',
+				orderInfo: 'md:order-1 homeContent__secondContent',
+				title: 'font-Sodo__semibold text-[1.75rem] lg:text-5xl',
+				description: 'font-Sodo__regular text-[1.375rem] lg:text-2xl'
+			},
 			imageSrc: home2,
 			title: 'Pistachi-Yum',
 			description:
@@ -133,7 +143,12 @@ const initialState = {
 			btnName: 'Order now'
 		},
 		{
-			customStyle: { orderImg: 'md:order-1', orderInfo: 'md:order-2' },
+			customStyle: {
+				orderImg: 'md:order-1',
+				orderInfo: 'md:order-2 homeContent__thirdContent',
+				title: 'font-Sodo__semibold text-[1.375rem] lg:text-2xl',
+				description: 'font-Sodo__regular text-base lg:text-xl'
+			},
 			imageSrc: home3,
 			title: '"This is our community. We’re in it together."',
 			description:
@@ -141,7 +156,12 @@ const initialState = {
 			btnName: 'Learn more'
 		},
 		{
-			customStyle: { orderImg: 'md:order-2', orderInfo: 'md:order-1' },
+			customStyle: {
+				orderImg: 'md:order-2',
+				orderInfo: 'md:order-1 homeContent__fourthContent',
+				title: 'font-Sodo__semibold text-[1.75rem] lg:text-5xl',
+				description: 'font-Sodo__regular text-[1.375rem] lg:text-2xl'
+			},
 			imageSrc: home4,
 			title: 'Hey there, hazelnut',
 			description:
@@ -149,7 +169,12 @@ const initialState = {
 			btnName: 'Order now'
 		},
 		{
-			customStyle: { orderImg: 'md:order-1', orderInfo: 'md:order-2' },
+			customStyle: {
+				orderImg: 'md:order-1',
+				orderInfo: 'md:order-2 homeContent__fifthContent',
+				title: 'font-Sodo__semibold text-[1.75rem] lg:text-5xl',
+				description: 'font-Sodo__regular text-[1.375rem] lg:text-2xl'
+			},
 			imageSrc: home5,
 			title: 'Savory and satisfying',
 			description:
@@ -157,12 +182,34 @@ const initialState = {
 			btnName: 'Order now'
 		},
 		{
-			customStyle: { orderImg: 'md:order-2', orderInfo: 'md:order-1' },
+			customStyle: {
+				orderImg: 'md:order-2',
+				orderInfo: 'md:order-1 homeContent__sixthContent',
+				title: 'font-Sodo__semibold text-2xl',
+				description: 'font-Sodo__regular text-base lg:text-xl'
+			},
 			imageSrc: home6,
 			title: 'Send Starbucks Cards in Venmo',
 			description:
 				'Send a little treat to someone you care about and brighten their day. You can now send Starbucks eGifts directly through Venmo.**',
 			btnName: 'View in Venmo'
+		}
+	],
+	questionContent: [
+		{
+			title: '*Triple Star Tuesday:​',
+			description:
+				'Offer valid 1/16/24 at participating stores. Must activate this offer to earn triple Stars on transactions made during the offer window. Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads. See starbucks.com/terms for details.​'
+		},
+		{
+			title: '$3 Thursday:​',
+			description:
+				'Valid 12-6pm only on 1/18/24 at participating stores on a grande or smaller handcrafted drink. Customizations cost extra. Excludes canned, bottled beverages and alcohol. Valid for one time use. Cannot be combined with other offers or discounts. Excludes delivery services.​'
+		},
+		{
+			title: 'BOGO Weekend:​​',
+			description:
+				'Valid 12-6pm only on 1/20/24-1/21/24 at participating stores. Buy a handcrafted drink, get one of equal or lesser value for free ($10 max value). Product availability varies by store. Limited to stock on hand. Cannot be combined with other offers or promotions. Excludes delivery services.'
 		}
 	],
 	featuresContent: [

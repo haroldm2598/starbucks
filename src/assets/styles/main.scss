@@ -17,6 +17,34 @@
 	top: 0;
 }
 
+.homeContent {
+	&__firstContent {
+		background-color: #bbf2d1;
+	}
+
+	&__secondContent {
+		background-color: #337481;
+		color: #fff;
+	}
+
+	&__thirdContent {
+		background-color: $primary--200;
+		color: #fff;
+	}
+
+	&__fourthContent {
+		background-color: #efabfc;
+	}
+
+	&__fifthContent {
+		background-color: #a5c4dc;
+	}
+
+	&__sixthContent {
+		background-color: #d4e9e2;
+	}
+}
+
 .navbarContent {
 	&__links {
 		position: relative;
