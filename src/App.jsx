@@ -7,6 +7,7 @@ import {
 
 import RootLayout from './layout/RootLayout';
 import Home from './page/Home';
+import Menu from './page/Menu';
 import Rewards from './page/Rewards';
 
 import './assets/styles/main.scss';
@@ -16,7 +17,7 @@ function App() {
 		createRoutesFromElements(
 			<Route path='/' element={<RootLayout />}>
 				<Route index element={<Home />} />
-				<Route path='/menu' element={<h1>Menu</h1>} />
+				<Route path='/menu' element={<Menu />} />
 				<Route path='/rewards' element={<Rewards />} />
 				<Route path='/giftcards' element={<h1>Gift cards</h1>} />
 			</Route>

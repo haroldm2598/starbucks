@@ -34,6 +34,30 @@ import earn2 from '../../assets/images/savepayment.webp';
 import earn3 from '../../assets/images/preload.png';
 import earn4 from '../../assets/images/registercard.webp';
 
+import menuDrinks1 from '../../assets/images/menu/oleato.avif';
+import menuDrinks2 from '../../assets/images/menu/hotcoffee.avif';
+import menuDrinks3 from '../../assets/images/menu/hotteas.avif';
+import menuDrinks4 from '../../assets/images/menu/hotdrinks.avif';
+import menuDrinks5 from '../../assets/images/menu/frapp.avif';
+import menuDrinks6 from '../../assets/images/menu/coldcoffees.avif';
+import menuDrinks7 from '../../assets/images/menu/icedteas.avif';
+import menuDrinks8 from '../../assets/images/menu/colddrinks.avif';
+
+import menuFood1 from '../../assets/images/menu/hotbreakfast.avif';
+import menuFood2 from '../../assets/images/menu/oatmeal.avif';
+import menuFood3 from '../../assets/images/menu/bakery.avif';
+import menuFood4 from '../../assets/images/menu/lunch.avif';
+import menuFood5 from '../../assets/images/menu/snacks.avif';
+
+import menuCoffe1 from '../../assets/images/menu/wholebean.avif';
+import menuCoffe2 from '../../assets/images/menu/ground.avif';
+import menuCoffe3 from '../../assets/images/menu/viainstant.avif';
+
+import menuMerch1 from '../../assets/images/menu/coldcups.avif';
+import menuMerch2 from '../../assets/images/menu/tumblers.avif';
+import menuMerch3 from '../../assets/images/menu/mugs.avif';
+import menuMerch4 from '../../assets/images/menu/others.avif';
+
 const initialState = {
 	isClick: false,
 	currentState: 25,
@@ -193,6 +217,48 @@ const initialState = {
 			description:
 				'Send a little treat to someone you care about and brighten their day. You can now send Starbucks eGifts directly through Venmo.**',
 			btnName: 'View in Venmo'
+		}
+	],
+	menuContent: [
+		{
+			title: 'Drinks',
+			listItem: [
+				{ imageSrc: menuDrinks1, name: 'Oleato' },
+				{ imageSrc: menuDrinks2, name: 'Hot Coffees' },
+				{ imageSrc: menuDrinks3, name: 'Hot Teas' },
+				{ imageSrc: menuDrinks4, name: 'Hot Drinks' },
+				{ imageSrc: menuDrinks5, name: 'Frappucino Blended Beverages' },
+				{ imageSrc: menuDrinks6, name: 'Cold Coffees' },
+				{ imageSrc: menuDrinks7, name: 'Iced Teas' },
+				{ imageSrc: menuDrinks8, name: 'Cold Drinks' }
+			]
+		},
+		{
+			title: 'Food',
+			listItem: [
+				{ imageSrc: menuFood1, name: 'Hot Breakfast' },
+				{ imageSrc: menuFood2, name: 'Oatmeal & Yogurt' },
+				{ imageSrc: menuFood3, name: 'Bakery' },
+				{ imageSrc: menuFood4, name: 'Lunch' },
+				{ imageSrc: menuFood5, name: 'Snacks & Sweets' }
+			]
+		},
+		{
+			title: 'At Home Coffee',
+			listItem: [
+				{ imageSrc: menuCoffe1, name: 'Whole Bean' },
+				{ imageSrc: menuCoffe2, name: 'Ground' },
+				{ imageSrc: menuCoffe3, name: 'VIA Instant' }
+			]
+		},
+		{
+			title: 'Mechandise',
+			listItem: [
+				{ imageSrc: menuMerch1, name: 'Cold Cups' },
+				{ imageSrc: menuMerch2, name: 'Tumblers' },
+				{ imageSrc: menuMerch3, name: 'Mugs' },
+				{ imageSrc: menuMerch4, name: 'Other' }
+			]
 		}
 	],
 	questionContent: [

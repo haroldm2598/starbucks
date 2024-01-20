@@ -11,10 +11,14 @@ function Navbar() {
 	const { navLinks, isClick } = useSelector((state) => state.starbsTemplate);
 	const dispatch = useDispatch();
 
-	const hideScroll = document.querySelector('body');
+	// const hideScroll = document.querySelector('body');
+	// isClick
+	// 	? hideScroll.classList.add('noscroll')
+	// 	: hideScroll.classList.remove('noscroll');
+
 	isClick
-		? hideScroll.classList.add('noscroll')
-		: hideScroll.classList.remove('noscroll');
+		? (document.body.style.overflow = 'hidden')
+		: (document.body.style.overflow = 'auto');
 
 	return (
 		<div className='max-w-full p-4 lg:px-8 lg:py-4 flex justify-between items-center'>
