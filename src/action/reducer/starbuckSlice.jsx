@@ -58,6 +58,60 @@ import menuMerch2 from '../../assets/images/menu/tumblers.avif';
 import menuMerch3 from '../../assets/images/menu/mugs.avif';
 import menuMerch4 from '../../assets/images/menu/others.avif';
 
+import featureCards1 from '../../assets/images/giftcards/ConfettiCelebrationFY24.avif';
+import featureCards2 from '../../assets/images/giftcards/MyTreatFY24.avif';
+import featureCards3 from '../../assets/images/giftcards/ValentineHeartsFY24.avif';
+import featureCards4 from '../../assets/images/giftcards/WarmMyHeartFY23.avif';
+import featureCards5 from '../../assets/images/giftcards/LoveYouGirlFY20.avif';
+import featureCards6 from '../../assets/images/giftcards/LNYDragonFY24.png';
+import featureCards7 from '../../assets/images/giftcards/BuildingSnowmenFY24.jpg';
+import featureCards8 from '../../assets/images/giftcards/BigThankYouFY22.avif';
+import featureCards9 from '../../assets/images/giftcards/GreatWorkDeservesCoffeeFY23.avif';
+import featureCards10 from '../../assets/images/giftcards/ThinkinOfYaFY24.avif';
+import featureCards11 from '../../assets/images/giftcards/YoureJustTheBestFY23.webp';
+import featureCards12 from '../../assets/images/giftcards/YayForCoffeeFY24.avif';
+import featureCards13 from '../../assets/images/giftcards/GoodVibesFY22.avif';
+import featureCards14 from '../../assets/images/giftcards/BirthdayCakeFY24.jpg';
+import featureCards15 from '../../assets/images/giftcards/BirthYayBalloonsFY24.avif';
+import featureCards16 from '../../assets/images/giftcards/WoohooFY23.avif';
+import featureCards17 from '../../assets/images/giftcards/HeritageBrandFY24.avif';
+
+import valentine from '../../assets/images/giftcards/ValentinesDayFY23.avif';
+
+import winter1 from '../../assets/images/giftcards/winter1.jpg';
+import winter2 from '../../assets/images/giftcards/winter2.avif';
+import winter3 from '../../assets/images/giftcards/winter3.avif';
+import winter4 from '../../assets/images/giftcards/winter4.avif';
+
+import birthday1 from '../../assets/images/giftcards/birthday1.avif';
+import birthday2 from '../../assets/images/giftcards/birthday2.avif';
+import birthday3 from '../../assets/images/giftcards/birthday3.avif';
+
+import thank1 from '../../assets/images/giftcards/thank1.avif';
+import thank2 from '../../assets/images/giftcards/thank2.avif';
+
+import celebration1 from '../../assets/images/giftcards/celebration1.avif';
+import celebration2 from '../../assets/images/giftcards/celebration2.avif';
+
+import appreciation1 from '../../assets/images/giftcards/APPRECIATION1.avif';
+import appreciation2 from '../../assets/images/giftcards/APPRECIATION2.avif';
+import appreciation3 from '../../assets/images/giftcards/APPRECIATION3.avif';
+
+import encouragement1 from '../../assets/images/giftcards/ENCOURAGEMENT.avif';
+import encouragement2 from '../../assets/images/giftcards/ENCOURAGEMENT1.avif';
+import encouragement3 from '../../assets/images/giftcards/ENCOURAGEMENT2.avif';
+
+import affection1 from '../../assets/images/giftcards/AFFECTION.avif';
+import affection2 from '../../assets/images/giftcards/AFFECTION1.avif';
+
+import workplace1 from '../../assets/images/giftcards/WORKPLACE.avif';
+import workplace2 from '../../assets/images/giftcards/WORKPLACE1.avif';
+import workplace3 from '../../assets/images/giftcards/WORKPLACE2.avif';
+
+import anytime1 from '../../assets/images/giftcards/ANYTIME.avif';
+import anytime2 from '../../assets/images/giftcards/ANYTIME1.avif';
+import anytime3 from '../../assets/images/giftcards/ANYTIME2.avif';
+
 const initialState = {
 	isClick: false,
 	currentState: 25,
@@ -422,6 +476,128 @@ const initialState = {
 			title: 'REDEEMING REWARDS',
 			content: [
 				'Rewards cannot be redeemed for alcoholic beverages or multi-serve items. You pay the difference for any beverage customization over $1 and/or merchandise item over $20. Not all stores honor tiered Rewards. Select stores redeem 200 Stars for free food or drink items only.'
+			]
+		}
+	],
+	giftcardsContent: [
+		{
+			title: 'featured',
+			imageContent: [
+				{ imageSrc: featureCards1 },
+				{ imageSrc: featureCards2 },
+				{ imageSrc: featureCards3 },
+				{ imageSrc: featureCards4 },
+				{ imageSrc: featureCards5 },
+				{ imageSrc: featureCards6 },
+				{ imageSrc: featureCards7 },
+				{ imageSrc: featureCards8 },
+				{ imageSrc: featureCards9 },
+				{ imageSrc: featureCards10 },
+				{ imageSrc: featureCards11 },
+				{ imageSrc: featureCards12 },
+				{ imageSrc: featureCards13 },
+				{ imageSrc: featureCards14 },
+				{ imageSrc: featureCards15 },
+				{ imageSrc: featureCards16 },
+				{ imageSrc: featureCards17 }
+			]
+		},
+		{
+			title: 'LUNAR NEW YEAR | 2/10',
+			imageContent: [{ imageSrc: featureCards6 }]
+		},
+		{
+			title: "VALENTINE'S DAY | 2/14",
+			imageContent: [
+				{ imageSrc: featureCards3 },
+				{ imageSrc: featureCards4 },
+				{ imageSrc: valentine },
+				{ imageSrc: featureCards5 }
+			]
+		},
+		{
+			title: "VALENTINE'S DAY | 2/14",
+			imageContent: [
+				{ imageSrc: featureCards7 },
+				{ imageSrc: winter1 },
+				{ imageSrc: winter2 },
+				{ imageSrc: winter3 },
+				{ imageSrc: winter4 }
+			]
+		},
+		{
+			title: 'birthday',
+			imageContent: [
+				{ imageSrc: featureCards14 },
+				{ imageSrc: featureCards15 },
+				{ imageSrc: birthday1 },
+				{ imageSrc: birthday2 },
+				{ imageSrc: birthday3 }
+			]
+		},
+		{
+			title: 'thank you',
+			imageContent: [
+				{ imageSrc: featureCards2 },
+				{ imageSrc: featureCards8 },
+				{ imageSrc: thank1 },
+				{ imageSrc: thank2 }
+			]
+		},
+		{
+			title: 'celebration',
+			imageContent: [
+				{ imageSrc: featureCards1 },
+				{ imageSrc: featureCards16 },
+				{ imageSrc: celebration1 },
+				{ imageSrc: celebration2 }
+			]
+		},
+		{
+			title: 'appreciation',
+			imageContent: [
+				{ imageSrc: appreciation1 },
+				{ imageSrc: appreciation2 },
+				{ imageSrc: featureCards14 },
+				{ imageSrc: appreciation3 }
+			]
+		},
+		{
+			title: 'encouragement',
+			imageContent: [
+				{ imageSrc: encouragement1 },
+				{ imageSrc: featureCards16 },
+				{ imageSrc: encouragement2 },
+				{ imageSrc: encouragement3 }
+			]
+		},
+		{
+			title: 'affection',
+			imageContent: [
+				{ imageSrc: affection1 },
+				{ imageSrc: featureCards13 },
+				{ imageSrc: featureCards4 },
+				{ imageSrc: affection2 },
+				{ imageSrc: featureCards5 }
+			]
+		},
+		{
+			title: 'workplace',
+			imageContent: [
+				{ imageSrc: featureCards12 },
+				{ imageSrc: workplace1 },
+				{ imageSrc: workplace2 },
+				{ imageSrc: workplace3 }
+			]
+		},
+		{
+			title: 'anytime',
+			imageContent: [
+				{ imageSrc: featureCards17 },
+				{ imageSrc: featureCards12 },
+				{ imageSrc: anytime1 },
+				{ imageSrc: anytime2 },
+				{ imageSrc: anytime3 }
 			]
 		}
 	]

@@ -1,0 +1,23 @@
+import Button from '../../components/Button';
+
+function Support() {
+	return (
+		<div className='support'>
+			<div className='max-w-7xl mx-auto py-10 [&>*]:mb-4'>
+				<h1 className='font-Sodo__bold text-sm uppercase'>gift card support</h1>
+				<p className='w-[25rem] font-Sodo__regular text-base'>
+					Use the links below to manage eGifts you have sent or received, or
+					view our full Card Terms & Conditions
+				</p>
+
+				<div className='[&>*]:mr-4'>
+					<Button name='eGift Support' />
+					<Button name='See Terms & Conditions' />
+					<Button name='eGift FAQs' customStyle='mt-5 lg:mt-0' />
+				</div>
+			</div>
+		</div>
+	);
+}
+
+export default Support;
