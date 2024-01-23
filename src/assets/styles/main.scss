@@ -7,6 +7,10 @@
 
 @layer components {
 	.myButton {
+		@apply px-5 btn btn-sm btn-outline rounded-full;
+	}
+
+	.woButton {
 		@apply px-5 btn btn-sm rounded-full;
 	}
 }

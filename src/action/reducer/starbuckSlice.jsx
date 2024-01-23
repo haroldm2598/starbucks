@@ -479,6 +479,128 @@ const initialState = {
 			]
 		}
 	],
+	// giftcardsContent: [
+	// 	{
+	// 		title: 'featured',
+	// 		imageContent: [
+	// 			{ imageSrc: featureCards1 },
+	// 			{ imageSrc: featureCards2 },
+	// 			{ imageSrc: featureCards3 },
+	// 			{ imageSrc: featureCards4 },
+	// 			{ imageSrc: featureCards5 },
+	// 			{ imageSrc: featureCards6 },
+	// 			{ imageSrc: featureCards7 },
+	// 			{ imageSrc: featureCards8 },
+	// 			{ imageSrc: featureCards9 },
+	// 			{ imageSrc: featureCards10 },
+	// 			{ imageSrc: featureCards11 },
+	// 			{ imageSrc: featureCards12 },
+	// 			{ imageSrc: featureCards13 },
+	// 			{ imageSrc: featureCards14 },
+	// 			{ imageSrc: featureCards15 },
+	// 			{ imageSrc: featureCards16 },
+	// 			{ imageSrc: featureCards17 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'LUNAR NEW YEAR | 2/10',
+	// 		imageContent: [{ imageSrc: featureCards6 }]
+	// 	},
+	// 	{
+	// 		title: "VALENTINE'S DAY | 2/14",
+	// 		imageContent: [
+	// 			{ imageSrc: featureCards3 },
+	// 			{ imageSrc: featureCards4 },
+	// 			{ imageSrc: valentine },
+	// 			{ imageSrc: featureCards5 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: "VALENTINE'S DAY | 2/14",
+	// 		imageContent: [
+	// 			{ imageSrc: featureCards7 },
+	// 			{ imageSrc: winter1 },
+	// 			{ imageSrc: winter2 },
+	// 			{ imageSrc: winter3 },
+	// 			{ imageSrc: winter4 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'birthday',
+	// 		imageContent: [
+	// 			{ imageSrc: featureCards14 },
+	// 			{ imageSrc: featureCards15 },
+	// 			{ imageSrc: birthday1 },
+	// 			{ imageSrc: birthday2 },
+	// 			{ imageSrc: birthday3 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'thank you',
+	// 		imageContent: [
+	// 			{ imageSrc: featureCards2 },
+	// 			{ imageSrc: featureCards8 },
+	// 			{ imageSrc: thank1 },
+	// 			{ imageSrc: thank2 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'celebration',
+	// 		imageContent: [
+	// 			{ imageSrc: featureCards1 },
+	// 			{ imageSrc: featureCards16 },
+	// 			{ imageSrc: celebration1 },
+	// 			{ imageSrc: celebration2 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'appreciation',
+	// 		imageContent: [
+	// 			{ imageSrc: appreciation1 },
+	// 			{ imageSrc: appreciation2 },
+	// 			{ imageSrc: featureCards14 },
+	// 			{ imageSrc: appreciation3 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'encouragement',
+	// 		imageContent: [
+	// 			{ imageSrc: encouragement1 },
+	// 			{ imageSrc: featureCards16 },
+	// 			{ imageSrc: encouragement2 },
+	// 			{ imageSrc: encouragement3 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'affection',
+	// 		imageContent: [
+	// 			{ imageSrc: affection1 },
+	// 			{ imageSrc: featureCards13 },
+	// 			{ imageSrc: featureCards4 },
+	// 			{ imageSrc: affection2 },
+	// 			{ imageSrc: featureCards5 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'workplace',
+	// 		imageContent: [
+	// 			{ imageSrc: featureCards12 },
+	// 			{ imageSrc: workplace1 },
+	// 			{ imageSrc: workplace2 },
+	// 			{ imageSrc: workplace3 }
+	// 		]
+	// 	},
+	// 	{
+	// 		title: 'anytime',
+	// 		imageContent: [
+	// 			{ imageSrc: featureCards17 },
+	// 			{ imageSrc: featureCards12 },
+	// 			{ imageSrc: anytime1 },
+	// 			{ imageSrc: anytime2 },
+	// 			{ imageSrc: anytime3 }
+	// 		]
+	// 	}
+	// ],
 	giftcardsContent: [
 		{
 			title: 'featured',
@@ -503,101 +625,105 @@ const initialState = {
 			]
 		},
 		{
-			title: 'LUNAR NEW YEAR | 2/10',
-			imageContent: [{ imageSrc: featureCards6 }]
-		},
-		{
-			title: "VALENTINE'S DAY | 2/14",
-			imageContent: [
-				{ imageSrc: featureCards3 },
-				{ imageSrc: featureCards4 },
-				{ imageSrc: valentine },
-				{ imageSrc: featureCards5 }
-			]
-		},
-		{
-			title: "VALENTINE'S DAY | 2/14",
-			imageContent: [
-				{ imageSrc: featureCards7 },
-				{ imageSrc: winter1 },
-				{ imageSrc: winter2 },
-				{ imageSrc: winter3 },
-				{ imageSrc: winter4 }
-			]
-		},
-		{
-			title: 'birthday',
-			imageContent: [
-				{ imageSrc: featureCards14 },
-				{ imageSrc: featureCards15 },
-				{ imageSrc: birthday1 },
-				{ imageSrc: birthday2 },
-				{ imageSrc: birthday3 }
-			]
-		},
-		{
-			title: 'thank you',
-			imageContent: [
-				{ imageSrc: featureCards2 },
-				{ imageSrc: featureCards8 },
-				{ imageSrc: thank1 },
-				{ imageSrc: thank2 }
-			]
-		},
-		{
-			title: 'celebration',
-			imageContent: [
-				{ imageSrc: featureCards1 },
-				{ imageSrc: featureCards16 },
-				{ imageSrc: celebration1 },
-				{ imageSrc: celebration2 }
-			]
-		},
-		{
-			title: 'appreciation',
-			imageContent: [
-				{ imageSrc: appreciation1 },
-				{ imageSrc: appreciation2 },
-				{ imageSrc: featureCards14 },
-				{ imageSrc: appreciation3 }
-			]
-		},
-		{
-			title: 'encouragement',
-			imageContent: [
-				{ imageSrc: encouragement1 },
-				{ imageSrc: featureCards16 },
-				{ imageSrc: encouragement2 },
-				{ imageSrc: encouragement3 }
-			]
-		},
-		{
-			title: 'affection',
-			imageContent: [
-				{ imageSrc: affection1 },
-				{ imageSrc: featureCards13 },
-				{ imageSrc: featureCards4 },
-				{ imageSrc: affection2 },
-				{ imageSrc: featureCards5 }
-			]
-		},
-		{
-			title: 'workplace',
-			imageContent: [
-				{ imageSrc: featureCards12 },
-				{ imageSrc: workplace1 },
-				{ imageSrc: workplace2 },
-				{ imageSrc: workplace3 }
-			]
-		},
-		{
-			title: 'anytime',
-			imageContent: [
-				{ imageSrc: featureCards17 },
-				{ imageSrc: featureCards12 },
-				{ imageSrc: anytime1 },
-				{ imageSrc: anytime2 },
-				{ imageSrc: anytime3 }
+			carouselContent: [
+				{
+					title: 'LUNAR NEW YEAR | 2/10',
+					imageContent: [{ imageSrc: featureCards6 }]
+				},
+				{
+					title: "VALENTINE'S DAY | 2/14",
+					imageContent: [
+						{ imageSrc: featureCards3 },
+						{ imageSrc: featureCards4 },
+						{ imageSrc: valentine },
+						{ imageSrc: featureCards5 }
+					]
+				},
+				{
+					title: "VALENTINE'S DAY | 2/14",
+					imageContent: [
+						{ imageSrc: featureCards7 },
+						{ imageSrc: winter1 },
+						{ imageSrc: winter2 },
+						{ imageSrc: winter3 },
+						{ imageSrc: winter4 }
+					]
+				},
+				{
+					title: 'birthday',
+					imageContent: [
+						{ imageSrc: featureCards14 },
+						{ imageSrc: featureCards15 },
+						{ imageSrc: birthday1 },
+						{ imageSrc: birthday2 },
+						{ imageSrc: birthday3 }
+					]
+				},
+				{
+					title: 'thank you',
+					imageContent: [
+						{ imageSrc: featureCards2 },
+						{ imageSrc: featureCards8 },
+						{ imageSrc: thank1 },
+						{ imageSrc: thank2 }
+					]
+				},
+				{
+					title: 'celebration',
+					imageContent: [
+						{ imageSrc: featureCards1 },
+						{ imageSrc: featureCards16 },
+						{ imageSrc: celebration1 },
+						{ imageSrc: celebration2 }
+					]
+				},
+				{
+					title: 'appreciation',
+					imageContent: [
+						{ imageSrc: appreciation1 },
+						{ imageSrc: appreciation2 },
+						{ imageSrc: featureCards14 },
+						{ imageSrc: appreciation3 }
+					]
+				},
+				{
+					title: 'encouragement',
+					imageContent: [
+						{ imageSrc: encouragement1 },
+						{ imageSrc: featureCards16 },
+						{ imageSrc: encouragement2 },
+						{ imageSrc: encouragement3 }
+					]
+				},
+				{
+					title: 'affection',
+					imageContent: [
+						{ imageSrc: affection1 },
+						{ imageSrc: featureCards13 },
+						{ imageSrc: featureCards4 },
+						{ imageSrc: affection2 },
+						{ imageSrc: featureCards5 }
+					]
+				},
+				{
+					title: 'workplace',
+					imageContent: [
+						{ imageSrc: featureCards12 },
+						{ imageSrc: workplace1 },
+						{ imageSrc: workplace2 },
+						{ imageSrc: workplace3 }
+					]
+				},
+				{
+					title: 'anytime',
+					imageContent: [
+						{ imageSrc: featureCards17 },
+						{ imageSrc: featureCards12 },
+						{ imageSrc: anytime1 },
+						{ imageSrc: anytime2 },
+						{ imageSrc: anytime3 }
+					]
+				}
 			]
 		}
 	]

@@ -3,7 +3,7 @@ import Button from '../../components/Button';
 
 function BusinessGift() {
 	return (
-		<div className='businessGift py-10'>
+		<div className='businessGift px-5 xl:px-0 py-10'>
 			<div className='max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center gap-10'>
 				<img src={imageSrc} alt='image source' className='w-96' />
 
@@ -16,7 +16,11 @@ function BusinessGift() {
 						incentivize, or show appreciation towards your customers, clients
 						and team members. Minimum 15 cards per order.
 					</p>
-					<Button name='Shop now' />
+					<Button
+						name='Shop now'
+						hasOutline={true}
+						customStyle='font-Sodo__semibold text-base'
+					/>
 				</div>
 			</div>
 		</div>
